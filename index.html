@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="./css/card.css">
+  <link rel="stylesheet" href="./css/detail.css">
+</head>
+
+<body>
+
+  <div class="main">
+    <nav>
+      <img onclick="togglemenu()" src="./furniture/images/icons/menu-bar.png" alt="">
+
+      <li class="tab" onclick="toggleon('home')">Home</li>
+      <li class="tab" onclick="toggleon('Almirah')">Almirah</li>
+      <li class="tab" onclick="toggleon('Chair')">Chair</li>
+      <li class="tab" onclick="toggleon('Coutch')">Coutch</li>
+      <li class="tab" onclick="toggleon('Dining')">Dining</li>
+      <li class="tab" onclick="toggleon('Dressing')">Dressing Table</li>
+      <li class="tab" onclick="toggleon('Shanglere')">Chandelier</li>
+      <li class="tab" onclick="toggleon('Sofa')">Sofa</li>
+      <li class="tab" onclick="toggleon('beds')">Beds</li>
+      <li class="tab" onclick="toggleon('cart')">Cart</li>
+    </nav>
+
+    <div class="con">
+      <div class="home">
+        <div class="home_back">
+          <div class="cover">
+            <img src="./furniture/images/logos/logo.png" alt="">
+          </div>
+        </div>
+        <center>
+          <h1>NEW ARRIVAL</h1>
+        </center>
+        <ul class="productlist productlistcon"></ul>
+      </div>
+      <div class="Almirah">
+        <div class="Almirah_back">
+          <div class="cover">
+            <h1>Almirah</h1>
+            <h3>Organize Your World in Style</h3>
+          </div>
+          <center>
+            <h1>New Collection Almirah</h1>
+          </center>
+          <ul class="productlistAlmirah productlistcon"></ul>
+        </div>
+      </div>
+      <div class="Chair">
+        <div class="Chair_back">
+          <div class="cover">
+            <h1>Chair</h1>
+            <h3>Sit in Comfort, Style, and Support</h3>
+          </div>
+          <center>
+            <h1>New Collection Chair</h1>
+          </center>
+          <ul class="productlistChair productlistcon"></ul>
+        </div>
+      </div>
+      <div class="Coutch">
+        <div class="Coutch_back">
+          <div class="cover">
+            <h1>Coutch</h1>
+            <h3>Unwind in Style, Lounge in Comfort</h3>
+          </div>
+          <center>
+            <h1>New Collection Coutch</h1>
+          </center>
+          <ul class="productlistCoutch productlistcon"></ul>
+        </div>
+      </div>
+      <div class="Dining">
+        <div class="Dining_back">
+          <div class="cover">
+            <h1>Dining</h1>
+            <h3>Where Meals Become Memories</h3>
+          </div>
+          <center>
+            <h1>New Collection Dining</h1>
+          </center>
+          <ul class="productlistDining productlistcon"></ul>
+        </div>
+      </div>
+      <div class="Dressing">
+        <div class="Dressing_back">
+          <div class="cover">
+            <h1>Dressing Table</h1>
+            <h3>Reflect Your Style, Perfect Your Look</h3>
+          </div>
+          <center>
+            <h1>New Collection Dressing Table</h1>
+          </center>
+          <ul class="productlistDressing productlistcon"></ul>
+        </div>
+      </div>
+      <div class="Shanglere">
+        <div class="Dressing_back">
+          <div class="cover">
+            <h1>Chandelier</h1>
+            <h3>Illuminate with Elegance</h3>
+          </div>
+          <center>
+            <h1>New Collection Chandelier </h1>
+          </center>
+          <ul class="productlistchandelier productlistcon"></ul>
+        </div>
+      </div>
+      <div class="Sofa">
+        <div class="Sofa_back">
+          <div class="cover">
+            <h1>Sofa</h1>
+            <h3>Comfort Redefined</h3>
+          </div>
+          <center>
+            <h1>New Collection Sofa</h1>
+          </center>
+          <ul class="productlistsofa productlistcon"></ul>
+        </div>
+      </div>
+      <div class="beds">
+        <div class="beds_back">
+          <div class="cover">
+            <h1>Beds</h1>
+            <h3>Where Comfort Meets Dreamy Nights"</h3>
+          </div>
+          <center>
+            <h1>New Collection Beds</h1>
+          </center>
+          <ul class="productlistbeds productlistcon"></ul>
+        </div>
+      </div>
+      <div class="cart">
+        <center>
+          <h1>cart</h1>
+        </center>
+        <ul class="productlistcart productlistcon"></ul>
+        <div class="footer">
+  
+        </div>
+      </div>
+    </div>
+
+
+    <div class="diss">
+      <div class="dis-con">
+
+      </div>
+      <div class="dis-con1">
+
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+  <script type="module" src="almirah.js"></script>
+  <script type="module" src="coutch.js"></script>
+  <script type="module" src="dining.js"></script>
+  <script type="module" src="chair.js"></script>
+  <script type="module" src="chandelier.js"></script>
+  <script type="module" src="dressing.js"></script>
+  <script type="module" src="sofa.js"></script>
+  <script type="module" src="home.js"></script>
+  <script type="module" src="beds.js"></script>
+</body>
+
+</html>

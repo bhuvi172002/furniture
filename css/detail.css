@@ -1,0 +1,19 @@
+.img2{
+   height: 500px;
+   width: 300px;
+   border-radius: 10px;
+}
+
+.detailcon{
+    height: 540px;
+    width: 340px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 10px black;
+}
+
+.detailp{
+    padding: 30px 100px;
+}
