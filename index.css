@@ -12,11 +12,11 @@
 nav{
   height: 100%;
   width: 50px;
-  background-color: rgb(0, 0, 0);
+ background-color: none;
   color: aliceblue;
   position: absolute;
   left: 0%;
-  transition: width 0.3s ease;
+  transition: all 0.3s ease;
 }
 nav img{
   height: 30px;

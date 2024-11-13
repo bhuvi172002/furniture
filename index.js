@@ -165,11 +165,13 @@ function togglemenu(){
  const nav =  document.querySelector('nav')
  if (tabs[0].style.display === 'none') {
   nav.style.width = '200px';
+  nav.style.backgroundColor = 'black'
   tabs.forEach(tab => {
     tab.style.display = 'block';
   });
 } else {
   nav.style.width = '50px';
+  nav.style.backgroundColor = ''
   tabs.forEach(tab => {
     tab.style.display = 'none';
   });
