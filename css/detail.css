@@ -17,3 +17,19 @@
 .detailp{
     padding: 30px 100px;
 }
+
+@media (max-width: 768px) {
+    .img2{
+        height: 400px;
+        width: 200px;
+      
+     }
+     .detailcon{
+        height: 450px;
+        width: 300px;
+         /* border: 2px solid greenyellow; */
+    }
+    .detailp{
+        padding: 10px;
+    }
+  }
